@@ -9,15 +9,17 @@ cp -f gitignoreforapp .gitignore
 cp -f README_APP.md README.md
 
 if [ $APP_NAME ]; then
-  current_folder=$APP_NAME
+  new_app_folder=$APP_NAME
 else
-  current_folder=$(basename $PWD)
+  new_app_folder=$(basename $PWD)
 fi
 
-echo "Renaming _app_replaced_ into ${current_folder}"
+echo "Renaming app_to_replace into ${new_app_folder}"
+
+sed -i "s/app_to_replace/${new_app_folder}/g" src/routes/app_to_replace/index.svelte
 
 find . -maxdepth 3 -type d \
 -not -path './node_modules/*' \
 -not -path './.git/*' \
 -not -path './.svelte-kit/*' \
--iname _app_replaced_ -execdir mv {} ${current_folder} ';'
+-iname app_to_replace -execdir mv {} ${new_app_folder} ';'
