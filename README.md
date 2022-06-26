@@ -26,7 +26,7 @@ bash scale-ui-finalize.sh
 ```
 
 ## Help
-### Rename with specific new
+### Rename with specific app name
 ```bash
 bash scale-ui-finalize.sh your-new-app
 ```
