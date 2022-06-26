@@ -9,6 +9,7 @@ node_modules
 
 /*
 !/.gitignore
+!/gitignoreforapp
 !/README.md
 !/README_APP.md
 !/scale-ui-finalize.sh
