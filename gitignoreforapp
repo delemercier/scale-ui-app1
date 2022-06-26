@@ -21,4 +21,4 @@ src/routes/index.svelte
 src/app*
 static/favicon.png
 static/_leader
-
+tests/test.ts
