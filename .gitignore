@@ -9,8 +9,8 @@ node_modules
 
 /*
 !/.gitignore
-!gitignoreforapp
 !/README.md
+!/README_APP.md
 !/src
 !/tests
 !/static

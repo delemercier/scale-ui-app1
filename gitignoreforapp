@@ -10,6 +10,7 @@ node_modules
 /*
 !/.gitignore
 !/README.md
+!/README_APP.md
 !/src
 !/tests
 !/static
