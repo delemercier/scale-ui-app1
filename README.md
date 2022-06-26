@@ -1,10 +1,15 @@
-open command promp:
+open command promp (git bash preferred):
 
 ```
 mkdir your-app
 cd your-app
-git clone https://github.com/delemercier/scale-ui-app1 .
+degit https://github.com/delemercier/scale-ui-app1 --force
 degit https://github.com/delemercier/scale-ui-leader --force
-copy gitignoreforapp .gitignore
+
+// open git bash in the folder
+bash scale-ui-finalize.sh
+// you can also rename folders with a specific name
+// bash scale-ui-finalize.sh your-new-app
+npm i
 npm run dev
 ```
