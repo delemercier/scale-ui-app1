@@ -1,12 +1,12 @@
 ## Open command promp (_git bash_ preferred):
 
-## One time:
+## One time
 ```bash
 npm uninstall -g degit
 npm install -g tiged
 ```
 
-## App creation :
+## App creation
 ```bash
 mkdir your-app
 cd your-app
@@ -16,6 +16,7 @@ bash scale-ui-finalize.sh
 # git init
 npm i
 npm run dev
+# navigate to http://localhost:3000/your-app
 ```
 
 ## Reload leader code
@@ -24,7 +25,7 @@ degit https://github.com/delemercier/scale-ui-leader --force
 bash scale-ui-finalize.sh
 ```
 
-## Help:
+## Help
 you can also rename folders with a specific name using:
 ```bash
 bash scale-ui-finalize.sh your-new-app
