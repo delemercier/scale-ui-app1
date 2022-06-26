@@ -24,6 +24,7 @@ if [ -f src/routes/app_to_replace/index.svelte ];then
   -not -path './.git/*' \
   -not -path './.svelte-kit/*' \
   -iname app_to_replace -execdir mv {} ${new_app_folder} ';'
+  
 fi
 
 
