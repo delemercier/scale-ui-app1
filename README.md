@@ -26,7 +26,12 @@ bash scale-ui-finalize.sh
 ```
 
 ## Help
-you can also rename folders with a specific name using:
+### Rename with specific new
 ```bash
 bash scale-ui-finalize.sh your-new-app
+```
+
+### Get leader specific git branch
+```bash
+degit https://github.com/delemercier/scale-ui-leader#main --force
 ```
