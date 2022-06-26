@@ -11,6 +11,7 @@ node_modules
 !/.gitignore
 !/README.md
 !/README_APP.md
+!/scale-ui-finalize.sh
 !/src
 !/tests
 !/static
