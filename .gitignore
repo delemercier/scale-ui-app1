@@ -7,4 +7,15 @@ node_modules
 .env.*
 !.env.example
 
-!**/app1/**
+/*
+!/.gitignore
+!/README.md
+!/src
+!/tests
+!/static
+src/lib/_leader
+src/routes/index.svelte
+src/app*
+static/favicon.png
+static/_leader
+
